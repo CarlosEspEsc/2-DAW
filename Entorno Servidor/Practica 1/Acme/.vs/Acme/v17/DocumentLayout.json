@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\",
+  "WorkspaceRootPath": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\users\\carespesc2\\desktop\\entorno servidor\\practica 1\\acme\\gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\users\\r2d2\\desktop\\ejercicios programaci\u00F3n\\gitjuan\\2-daw\\entorno servidor\\practica 1\\acme\\gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
       "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\users\\carespesc2\\desktop\\entorno servidor\\practica 1\\acme\\gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\users\\carespesc2\\desktop\\entorno servidor\\practica 1\\acme\\gespresta\\cabecera.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\gespresta\\cabecera.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\cabecera.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\users\\carespesc2\\desktop\\entorno servidor\\practica 1\\acme\\gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +26,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Default.aspx",
               "RelativeDocumentMoniker": "GesPresta\\Default.aspx",
-              "ToolTip": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Default.aspx",
+              "ToolTip": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Default.aspx",
               "RelativeToolTip": "GesPresta\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -43,12 +43,16 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Cabecera.ascx",
-              "DocumentMoniker": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Cabecera.ascx",
+              "DocumentMoniker": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Cabecera.ascx",
               "RelativeDocumentMoniker": "GesPresta\\Cabecera.ascx",
-              "ToolTip": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Cabecera.ascx",
+              "ToolTip": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Cabecera.ascx",
               "RelativeToolTip": "GesPresta\\Cabecera.ascx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
@@ -59,22 +63,22 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "cabecera.css",
-              "DocumentMoniker": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\cabecera.css",
+              "DocumentMoniker": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\cabecera.css",
               "RelativeDocumentMoniker": "GesPresta\\cabecera.css",
-              "ToolTip": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\cabecera.css",
+              "ToolTip": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\cabecera.css",
               "RelativeToolTip": "GesPresta\\cabecera.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-17T13:57:19.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Empleados.aspx",
-              "DocumentMoniker": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Empleados.aspx",
+              "DocumentMoniker": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Empleados.aspx",
               "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx",
-              "ToolTip": "C:\\Users\\carespesc2\\Desktop\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Empleados.aspx",
+              "ToolTip": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Empleados.aspx",
               "RelativeToolTip": "GesPresta\\Empleados.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",

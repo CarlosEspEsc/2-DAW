@@ -5,14 +5,15 @@
 h3 {
     text-align: center;
 }
-#Inicio {
-    text-align: center;
+#botones {
+    display:flex;
+    justify-content:center;
 }
-#Empleados {
-    text-align: center;
+#divIni {
+    float:left;
 }
-#Prestaciones {
-    text-align: center;
+#divPres {
+    float:right;
 }
 p{
     font-size:medium;
