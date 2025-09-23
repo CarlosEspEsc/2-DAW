@@ -1,0 +1,22 @@
+﻿h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#botones {
+    display:flex;
+    justify-content:space-between;
+    width:75%;
+    margin: 0 auto;
+}
+#divIni {
+    float:left;
+}
+#divPres {
+    float:right;
+}
+p{
+    font-size:medium;
+}

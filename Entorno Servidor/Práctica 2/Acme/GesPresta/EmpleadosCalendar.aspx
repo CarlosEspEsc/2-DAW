@@ -1,0 +1,79 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EmpleadosCalendar.aspx.cs" Inherits="GesPresta.EmpleadosCalendar" %>
+
+<%@ Register src="Cabecera.ascx" tagname="Cabecera" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>EMPLEADOS</title>
+    <link rel="stylesheet" href="cabecera.css"/>
+    <style type="text/css">
+        #Text1 {
+            width: 127px;
+        }
+        #txtNomEmp {
+            width: 371px;
+        }
+        #txtDirEmp {
+            width: 371px;
+        }
+        #txtCiuEmp {
+            width: 372px;
+        }
+        .Label {
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <uc1:Cabecera ID="Cabecera1" runat="server" />
+        </div>
+    
+        <h2 style="text-align:center;">DATOS DE LOS EMPLEADOS</h2>
+        <div>
+        <div id:"cabeceras" style="text-align:right; width: 50%; float:left; height: auto; margin-right:30px;">
+           <div class="Label"><asp:Label ID="Label1"  runat="server" Text="Código Empleado"></asp:Label><br /></div> 
+           <div class="Label"> <asp:Label ID="Label2" runat="server" Text="NIF" ></asp:Label><br /></div> 
+           <div class="Label"> <asp:Label ID="Label3" runat="server" Text="Apellidos y Nombre" ></asp:Label><br /></div> 
+           <div class="Label"> <asp:Label ID="Label4" runat="server" Text="Dirección" ></asp:Label><br /></div> 
+           <div class="Label"> <asp:Label ID="Label5" runat="server" Text="Ciudad" ></asp:Label><br /></div> 
+           <div class="Label"> <asp:Label ID="Label6" runat="server" Text="Teléfonos" ></asp:Label><br /></div>
+           <div class="Label"><asp:Label ID="Label9"  runat="server" Text="Sexo" ></asp:Label><br /></div> 
+           <div class="Label" style="margin-top:30px"><asp:Label ID="Label10" runat="server" Text="Departamento" ></asp:Label></div> 
+        </div>
+        <div id="cajas" style="width: 45%; float:left; height: 257px;" >
+
+            <asp:TextBox ID="txtCodEmp"  runat="server" style="margin-top:8px; width: 151px;"></asp:TextBox><br />
+            <asp:TextBox ID="txtNifEmp"  runat="server" style="margin-top:8px; width: 151px;"></asp:TextBox><br />
+            <asp:TextBox ID="txtNomEmp"  runat="server" style="margin-top:8px"></asp:TextBox><br />
+            <asp:TextBox ID="txtDirEmp"  runat="server" style="margin-top:8px"></asp:TextBox><br />
+            <asp:TextBox ID="txtCiuEmp"  runat="server" style="margin-top:8px"></asp:TextBox><br />
+            <asp:TextBox ID="txtTelEmp"  runat="server" style="margin-top:8px"></asp:TextBox><br />
+            <asp:RadioButtonList ID="rblSexEmp" runat="server" Width="251px" Eight="150px" Height="16px">
+                <asp:ListItem Selected="True">Hombre</asp:ListItem>
+                <asp:ListItem>Mujer</asp:ListItem>
+            </asp:RadioButtonList>
+            <asp:DropDownList ID="ddlDepEmp" runat="server">
+                <asp:ListItem>Investigación</asp:ListItem>
+                <asp:ListItem>Desarollo</asp:ListItem>
+                <asp:ListItem>Innovación</asp:ListItem>
+                <asp:ListItem>Administración</asp:ListItem>
+            </asp:DropDownList>
+            <br />
+            <br />
+        </div>
+        <div class="Label" style=""><asp:Label ID="Label7" runat="server" Text="Fecha de Nacimiento"></asp:Label></div>
+            <br />
+        <div style="width:100%;float:inline-end; margin:0 auto; text-align:center;">
+            <asp:Button ID="cmdEnviar" runat="server" OnClick="Button1_Click" Text="Enviar" style="margin-top:10px"/>
+        </div>
+    </div>
+        <asp:Label ID="lblValores" runat="server" BackColor="#66FFFF" Text="Label" Visible="False" Width="60%"></asp:Label>
+    </form>
+    
+</body>
+</html>

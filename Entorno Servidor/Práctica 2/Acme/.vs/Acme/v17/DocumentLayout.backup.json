@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\pr\u00E1ctica 2\\acme\\gespresta\\prestaciones1respuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones1respuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\pr\u00E1ctica 2\\acme\\gespresta\\prestaciones1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\pr\u00E1ctica 2\\acme\\gespresta\\prestaciones1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\pr\u00E1ctica 2\\acme\\gespresta\\prestaciones1respuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones1respuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Prestaciones1Respuesta.aspx.cs",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx.cs",
+              "RelativeDocumentMoniker": "GesPresta\\Prestaciones1Respuesta.aspx.cs",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx.cs",
+              "RelativeToolTip": "GesPresta\\Prestaciones1Respuesta.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:25:24.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prestaciones1Respuesta.aspx",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Prestaciones1Respuesta.aspx",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx",
+              "RelativeToolTip": "GesPresta\\Prestaciones1Respuesta.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T18:24:14.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Prestaciones1.aspx.cs",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1.aspx.cs",
+              "RelativeDocumentMoniker": "GesPresta\\Prestaciones1.aspx.cs",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1.aspx.cs",
+              "RelativeToolTip": "GesPresta\\Prestaciones1.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:19:37.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prestaciones1.aspx",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Prestaciones1.aspx",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones1.aspx",
+              "RelativeToolTip": "GesPresta\\Prestaciones1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T18:19:29.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

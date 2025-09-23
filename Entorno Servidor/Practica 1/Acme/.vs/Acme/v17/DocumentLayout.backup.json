@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\practica 1\\acme\\gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|C:\\RepoGit\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\practica 1\\acme\\gespresta\\empleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|C:\\RepoGit\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\gespresta\\empleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -43,8 +43,7 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-09-17T14:13:15.889Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -57,8 +56,11 @@
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-09-17T13:49:25.1Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -68,7 +70,7 @@
               "RelativeDocumentMoniker": "GesPresta\\Prestaciones.aspx.cs",
               "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Practica 1\\Acme\\GesPresta\\Prestaciones.aspx.cs",
               "RelativeToolTip": "GesPresta\\Prestaciones.aspx.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T17:11:42.828Z",
               "EditorCaption": ""
@@ -83,12 +85,7 @@
               "RelativeToolTip": "GesPresta\\Empleados.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:11:35.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-09-22T17:11:35.917Z"
             },
             {
               "$type": "Document",
@@ -100,8 +97,7 @@
               "RelativeToolTip": "GesPresta\\Prestaciones.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-22T16:13:42.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T16:13:42.5Z"
             }
           ]
         }
