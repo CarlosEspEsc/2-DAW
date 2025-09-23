@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>ACME INNOVACIÓN</title>
     <link rel="stylesheet" href="cabecera.css"/>
 </head>
 <body style="height: 351px">
