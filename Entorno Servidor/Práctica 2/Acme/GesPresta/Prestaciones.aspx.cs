@@ -13,5 +13,20 @@ namespace GesPresta
         {
             txtCodPre.Focus();
         }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnVerPrestaciones_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

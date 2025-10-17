@@ -11,7 +11,7 @@ namespace GesPresta
 {
 
 
-    public partial class Prestaciones
+    public partial class WebForm1
     {
 
         /// <summary>
@@ -87,13 +87,13 @@ namespace GesPresta
         protected global::GesPresta.prestacionesBuscar prestacionesBuscar1;
 
         /// <summary>
-        /// Control Button2.
+        /// Control btnVerPrestaciones.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnVerPrestaciones;
 
         /// <summary>
         /// Control btnSeleccionar.

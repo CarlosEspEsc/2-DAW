@@ -1,7 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prestaciones.aspx.cs" Inherits="GesPresta.Prestaciones" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prestaciones2.aspx.cs" Inherits="GesPresta.WebForm1" %>
 <%@ Register Src="~/Cabecera.ascx" TagPrefix="uc1" TagName="Cabecera" %>
 
+<%@ Register src="prestacionesBuscar.ascx" tagname="prestacionesBuscar" tagprefix="uc2" %>
 
 <!DOCTYPE html>
 
@@ -46,6 +46,11 @@
             </asp:DropDownList>
          </div>
         <br /> &nbsp;
+        <uc2:prestacionesBuscar ID="prestacionesBuscar1" runat="server" Visible="False" />
+&nbsp;<asp:Button ID="btnVerPrestaciones" runat="server" CausesValidation="False" OnClick="btnVerPrestaciones_Click" Text="Ver prestaciones" Width="160px" />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnSeleccionar" runat="server" CausesValidation="False" OnClick="Button3_Click" Text="Seleccionar" Visible="False" Width="89px" />
     </div>
         <div style="width:100%;float:inline-end; margin:0 auto; text-align:center;">
             <asp:Button ID="Button1" runat="server" style="margin: 0 auto;margin-top:10px; text-align:center;" OnClick="Button1_Click1" Text="Enviar" />

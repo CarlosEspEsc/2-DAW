@@ -76,7 +76,9 @@
     <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
     <Content Include="Prestaciones1Respuesta.aspx" />
+    <Content Include="prestacionesBuscar.ascx" />
     <Content Include="Web.config" />
+    <Content Include="Prestaciones2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cabecera.ascx.cs">
@@ -135,7 +137,21 @@
     <Compile Include="Prestaciones1Respuesta.aspx.designer.cs">
       <DependentUpon>Prestaciones1Respuesta.aspx</DependentUpon>
     </Compile>
+    <Compile Include="prestacionesBuscar.ascx.cs">
+      <DependentUpon>prestacionesBuscar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prestacionesBuscar.ascx.designer.cs">
+      <DependentUpon>prestacionesBuscar.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prestaciones2.aspx.cs">
+      <DependentUpon>Prestaciones2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prestaciones2.aspx.designer.cs">
+      <DependentUpon>Prestaciones2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
