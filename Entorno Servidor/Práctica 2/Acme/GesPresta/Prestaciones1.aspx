@@ -13,7 +13,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div> <uc1:Cabecera runat="server" ID="Cabecera" /> </div>
+    <div> <uc1:Cabecera runat="server" ID="Cabecera" /> </div>
         <h2 style="text-align:center;">DATOS DE LAS PRESTACIONES</h2>
     <div>
     <div id="cabeceras"  style="text-align:right; width: 50%; float:left; height: auto; margin-right:30px;">

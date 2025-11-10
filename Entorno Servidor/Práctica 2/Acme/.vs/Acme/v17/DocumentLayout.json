@@ -3,20 +3,7 @@
   "WorkspaceRootPath": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\pr\u00E1ctica 2\\acme\\gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\pr\u00E1ctica 2\\acme\\gespresta\\prestaciones2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|c:\\repogit\\2-daw\\entorno servidor\\pr\u00E1ctica 2\\acme\\gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{F1E5DCD3-8FD1-47D3-A30A-201E07BFEFE1}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carespesc2\\source\\repos\\Tema 5 Pr\u00E1cticas - Recursos\\MasterPage.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +21,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Prestaciones2.aspx.cs",
-              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones2.aspx.cs",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones2.aspx.cs",
-              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones2.aspx.cs",
-              "RelativeToolTip": "GesPresta\\Prestaciones2.aspx.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T16:53:55.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Prestaciones2.aspx",
-              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones2.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones2.aspx",
-              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones2.aspx",
-              "RelativeToolTip": "GesPresta\\Prestaciones2.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-13T16:52:48.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Prestaciones.aspx",
-              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones.aspx",
-              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\Prestaciones.aspx",
-              "RelativeToolTip": "GesPresta\\Prestaciones.aspx",
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\carespesc2\\source\\repos\\Tema 5 Pr\u00E1cticas - Recursos\\MasterPage.Master",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\carespesc2\\source\\repos\\Tema 5 Pr\u00E1cticas - Recursos\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\carespesc2\\source\\repos\\Tema 5 Pr\u00E1cticas - Recursos\\MasterPage.Master",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\carespesc2\\source\\repos\\Tema 5 Pr\u00E1cticas - Recursos\\MasterPage.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-13T16:50:54.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "prestacionesBuscar.ascx",
-              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\prestacionesBuscar.ascx",
-              "RelativeDocumentMoniker": "GesPresta\\prestacionesBuscar.ascx",
-              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Pr\u00E1ctica 2\\Acme\\GesPresta\\prestacionesBuscar.ascx",
-              "RelativeToolTip": "GesPresta\\prestacionesBuscar.ascx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2025-10-13T16:19:28.746Z",
+              "WhenOpened": "2025-10-27T17:44:49.336Z",
               "EditorCaption": ""
             }
           ]

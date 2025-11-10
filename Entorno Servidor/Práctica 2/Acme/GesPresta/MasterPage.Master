@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="GesPresta.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    }
+    h3 {
+    text-align: center;
+    }
+    #botones {
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+    margin: 0 auto;
+    }
+    #divIni {
+    float:left;
+            width: 315px;
+            height: 24px;
+        }
+    #divPres {
+    float:right;
+    }
+    p{
+    font-size:medium;
+    }
+        #divEmp {
+            width: 361px;
+            height: 23px;
+        }
+        #divPSres {
+            width: 232px;
+            height: 19px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+<br />
+<div id="botones" style="display: flex; justify-content: center; align-items: center; height: 20%; gap: 20px;">
+    <div id="divIni"><asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/MPDefault.aspx" CausesValidation="false">Inicio</asp:LinkButton></div>
+    <div id="divEmp"><asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/MPEmpleados.aspx" CausesValidation="false">Empleados</asp:LinkButton></div>
+    <div id="divPres"><asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/MPPrestaciones.aspx" CausesValidation="false">Prestaciones</asp:LinkButton></div>
+</div>
+<br />
+<hr />
+<h1 style="text-align:center;">ACME INNOVACIÓN, S. FIG.</h1>
+<hr style="height: -12px" />
+<h3>Gestión de Prestaciones Sociales </h3>
+<hr style="height: -12px" />
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

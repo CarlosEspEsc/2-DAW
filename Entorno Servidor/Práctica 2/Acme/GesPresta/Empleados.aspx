@@ -106,7 +106,7 @@
             <br />
                 <asp:RegularExpressionValidator ID="regTxtFinEmp" runat="server" ErrorMessage="Formato de fecha dd/mm/aaaa." ControlToValidate="txtFinEmp" ValidationExpression="\d\d\/\d\d\/\d\d\d\d" ForeColor="Red"></asp:RegularExpressionValidator>
                 <br />
-                <asp:CompareValidator ID="cmpTxtFnaEmp" runat="server" ControlToCompare="txtFnaEmp" ControlToValidate="txtFinEmp" ErrorMessage="La Fecha de Ingreso del Empleado debe ser mayor que la Fecha de Nacimiento" Operator="LessThan" Type="Date" ForeColor="Red"></asp:CompareValidator>
+                <asp:CompareValidator ID="cmpTxtFnaEmp" runat="server" ControlToCompare="txtFinEmp" ControlToValidate="txtFnaEmp" ErrorMessage="La Fecha de Ingreso del Empleado debe ser mayor que la Fecha de Nacimiento" Operator="LessThan" Type="Date" ForeColor="Red"></asp:CompareValidator>
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" DisplayMode="List" ForeColor="Red" />
 
     </div>
