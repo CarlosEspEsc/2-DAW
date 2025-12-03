@@ -73,13 +73,17 @@
     </Content>
     <Content Include="ControlError.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Estilos\LoginNuevo.css" />
     <Content Include="Estilos\Errores.css" />
     <Content Include="Estilos\HojaEstilo.css" />
     <Content Include="Global.asax" />
+    <Content Include="InicioAdmin.aspx" />
+    <Content Include="InicioUsuario.aspx" />
     <Content Include="PedidosPorCliente.aspx" />
     <Content Include="ProductosMantener.aspx" />
     <Content Include="ProductosPorTipoVer.aspx" />
     <Content Include="ProductosVer.aspx" />
+    <Content Include="Registrarse.aspx" />
     <Content Include="TiposVer.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -100,6 +104,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InicioAdmin.aspx.cs">
+      <DependentUpon>InicioAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioAdmin.aspx.designer.cs">
+      <DependentUpon>InicioAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioUsuario.aspx.cs">
+      <DependentUpon>InicioUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioUsuario.aspx.designer.cs">
+      <DependentUpon>InicioUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -150,6 +168,13 @@
     </Compile>
     <Compile Include=".Master.designer.cs">
       <DependentUpon>.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Registrarse.aspx.cs">
+      <DependentUpon>Registrarse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrarse.aspx.designer.cs">
+      <DependentUpon>Registrarse.aspx</DependentUpon>
     </Compile>
     <Compile Include="TiposVer.aspx.cs">
       <DependentUpon>TiposVer.aspx</DependentUpon>

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="GesTienda.Default" %>
-
+﻿<%@ Page  Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="GesTienda.Default"  %>
+<%@OutputCache Duration="1" VaryByParam="None"%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15,7 +15,7 @@
             <h2>Tienda Online - Shopping DAW</h2>
         </header>
         <div style="display:flex; align-content:center; justify-content:center; margin:0 auto; margin-top:5%">
-            <asp:Login ID="Login1" runat="server">
+            <asp:Login ID="Login1" runat="server" OnAuthenticate="Login1_Authenticate">
                 <LayoutTemplate>
                     <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;">
                         <tr>
@@ -52,7 +52,11 @@
                                     </tr>
                                     <tr style="align-self:center; justify-content:center;">
                                         <td align="right" colspan="2" style="align-self:center;justify-content:center;">
-                                           
+                                            <div style="width:95vw;display:flex;align-content:center; justify-content:center;">
+                                                <div></div>
+                                                 <asp:Button ID="LoginButton" runat="server" CommandName="Login"  Text="Inicio de sesión" ValidationGroup="Login1" />
+                                                <div></div>
+                                            </div>  
                                         </td>
                                     </tr>
                                 </table>
@@ -62,13 +66,10 @@
                 </LayoutTemplate>
             </asp:Login>
             </div>
-        <div style="width:95vw;display:flex;align-content:center; justify-content:center;">
-            <div></div>
-             <asp:Button ID="LoginButton" runat="server" CommandName="Login" OnClick="LoginButton_Click1" Text="Inicio de sesión" ValidationGroup="Login1" />
-            <div></div>
-        </div>
         <div style="display:flex; align-content:center; justify-content:center;">
         <asp:Label ID="lblMensajes" runat="server" ForeColor="Black" Text="Label" Visible="False"></asp:Label>
+            <br />
+            <asp:LinkButton ID="lnkResgistro" runat="server" PostBackUrl="~/Registrarse.aspx">Registrarse</asp:LinkButton>
         </div>
     </form>
 </body>

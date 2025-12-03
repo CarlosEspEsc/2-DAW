@@ -16,10 +16,7 @@ namespace GesTienda
 
         }
 
-        protected void LoginButton_Click(object sender, EventArgs e)
-        {
 
-        }
         protected void Login1_Authenticate(object sender, AuthenticateEventArgs e) 
         { 
             string StrCadenaConexion = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
@@ -41,18 +38,26 @@ namespace GesTienda
                         if (Convert.ToString(Session["Rol"]) == "A")
                             Response.Redirect("~/InicioAdmin.aspx");
                         if (Convert.ToString(Session["Rol"]) == "U")
+                        { 
                             Response.Redirect("~/InicioUsuario.aspx");
-                    } else 
-                    { 
-                        e.Authenticated = false; 
+                            HttpContext.Current.Response.Flush();
+                            HttpContext.Current.Response.SuppressContent = true;
+                            HttpContext.Current.ApplicationInstance.CompleteRequest();
+                        }
+                    }
+                    else
+                    {
+                        e.Authenticated = false;
                     } 
                 } 
                 catch (SqlException ex) 
-                { 
+                {
                     string StrError = "<p>Se han producido errores en el acceso a la base de datos.</p>";
                     StrError = StrError + "<div>Código: " + ex.Number + "</div>";
                     StrError = StrError + "<div>Descripción: " + ex.Message + "</div>";
-                    lblMensajes.Text = StrError; return; 
+                    lblMensajes.Text = StrError;
+                    lblMensajes.Visible = true;
+                    return;
                 }
             }
         }

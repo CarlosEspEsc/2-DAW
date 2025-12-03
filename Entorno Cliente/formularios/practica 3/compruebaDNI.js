@@ -1,4 +1,21 @@
 // Función para calcular la letra del NIF/NIE
+
+let formulario = document.getElementById("formulario")
+
+formulario.addEventListener("submit", function(event){
+    event.preventDefault();
+    let dni = formulario.elements["DNI"].value
+    if(!comprobarNifNie(dni))
+        alert("Tu DNI/NIF/NIE no es correcto, compruebalo")
+    else{
+        formulario.submit();
+    }
+})
+
+
+
+
+
 function comprobarNifNie(nif) {
     var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
 
