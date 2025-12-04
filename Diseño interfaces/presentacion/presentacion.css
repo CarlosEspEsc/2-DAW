@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit; 
+    border-radius: 15px;
+    font-family: "Outfit";
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    width: 99vw;
+    height: 20vh;
+    border-radius: 3vh;
+}
+nav>section{
+    width: 15vw;
+    height: 13vh;
+    background-color: lightgrey;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+    text-align: center;
+    border-radius: 3vh;
+}
+nav>section>article{
+    width: 10vw;
+    height: 17vh;
+}
+#enlaceNav{
+    text-decoration: none;
+    color: white;
+}

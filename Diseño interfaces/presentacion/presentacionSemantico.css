@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit; 
+    border-radius: 15px;
+    font-family: monospace;
+    font-size: 2vw;
+    text-align: center;
+    font-family: "Outfit",serif;
+    margin: 0 0;
+}
+
+
+body{
+    color: white;
+    background-color: #0e141b;
+    height: 300vh;
+    
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+    background-color:#d9d9d9;
+    width: 95vw;
+    height: 20vh;
+    border-radius: 3vh;
+    border: solid 2px black;
+    margin: 3vh;
+    animation: fadeInDown;
+    animation-duration: 1s;
+}
+.botonesNav{
+    width: 15vw;
+    height: 13vh;
+    background: linear-gradient(145deg, #4d6e96, #2e435e, #15202b);
+    justify-self: center;
+    align-content: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    transition: 1s ease;
+}
+#enlaceNav{
+    text-decoration: none;
+    color: #f5efd7;
+    font-family: "Outfit", sans-serif;
+}
+.botonesNav:hover{
+    background: linear-gradient(145deg, #4d6e96, #364f6e, #18222c);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);  
+    border-radius: 60px;
+}
+.botonesNav:active{
+    background: linear-gradient(145deg, #4d6e96, #5778a0, #25313d);
+    box-shadow: 15px 15px 25px rgba(34, 34, 34, 0.877);
+    transition: 1s ease;
+}
+.fotoNav>img{
+    inline-size:17vh;
+    aspect-ratio: 1;
+    object-fit:cover;
+    border-radius:100%;
+    box-shadow: 5px 5px 15px #0e141b;
+    transition: inline-size 0.5s;
+}
+.fotoNav>img:hover{
+    inline-size:22vh;
+}
+main{
+    height: 270vh;
+    width: 90vw;
+    background-color: #d9d9d9;
+    align-self: center;
+    justify-self: center;
+    margin-top: 3vh;
+    border: solid 2px black;
+    animation: fadeInLeftBig;
+    animation-duration: 1s;
+}
