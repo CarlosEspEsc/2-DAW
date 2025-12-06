@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Tienda\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|C:\\RepoGit\\2-DAW\\Entorno Servidor\\Tienda\\gestienda\\registrarse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\registrarse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -13,6 +14,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|C:\\RepoGit\\2-DAW\\Entorno Servidor\\Tienda\\gestienda\\registrarse.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\registrarse.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|c:\\users\\r2d2\\desktop\\ejercicios programaci\u00F3n\\gitjuan\\2-daw\\entorno servidor\\tienda\\gestienda\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Tienda\\gestienda\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E42DB0D6-A5A4-417C-A16F-E728DC668BEB}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +31,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Tienda\\GesTienda\\Default.aspx",
@@ -39,10 +53,22 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-12-01T16:27:41.01Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Tienda\\GesTienda\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "GesTienda\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Tienda\\GesTienda\\Default.aspx.cs",
+              "RelativeToolTip": "GesTienda\\Default.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:05:23.477Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "Registrarse.aspx",
               "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Tienda\\GesTienda\\Registrarse.aspx",
@@ -50,6 +76,15 @@
               "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\Tienda\\GesTienda\\Registrarse.aspx",
               "RelativeToolTip": "GesTienda\\Registrarse.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+=======
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Tienda\\GesTienda\\Default.aspx",
+              "RelativeDocumentMoniker": "GesTienda\\Default.aspx",
+              "ToolTip": "C:\\Users\\R2D2\\Desktop\\Ejercicios programaci\u00F3n\\GitJuan\\2-DAW\\Entorno Servidor\\Tienda\\GesTienda\\Default.aspx",
+              "RelativeToolTip": "GesTienda\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-11-26T15:20:03.214Z",
               "EditorCaption": ""
