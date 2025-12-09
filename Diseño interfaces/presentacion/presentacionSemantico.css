@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box; 
+    scroll-behavior: smooth;
 }
 *, *:before, *:after {
     box-sizing: inherit; 
@@ -10,20 +11,30 @@ html {
     font-family: "Outfit",serif;
     margin: 0 0;
 }
-
+:root{
+    --color-fondo-elemento-flotante: #d9d9d9;
+    --color-boton-base: linear-gradient(145deg, #4d6e96, #2e435e, #15202b);
+    --color-boton-hover: linear-gradient(145deg, #5376a1, #324966, #121c25);
+    --color-boton-click: linear-gradient(145deg, #2b3d4e, #43638a, #6996cc);
+    --sombra-base: 1vw 1vw 2vw rgba(0, 0, 0, 0.7);
+    --sombra-hover: 1.2vw 1.2vw 2.5vw rgba(0, 0, 0, 1);
+    --sombra-click: 1.5vw 1.5vw 3vw rgba(34, 34, 34, 0.877);;
+}
 
 body{
-    color: white;
     background-color: #0e141b;
     height: 300vh;
     
 }
+
+    /*NAV*/
 nav{
+    color: white;
     display:flex;
     align-items: center;
     justify-content: space-around;
     justify-self: center;
-    background-color:#d9d9d9;
+    background-color: var(--color-fondo-elemento-flotante);
     width: 95vw;
     height: 20vh;
     border-radius: 3vh;
@@ -31,51 +42,121 @@ nav{
     margin: 3vh;
     animation: fadeInDown;
     animation-duration: 1s;
+        .botonesNav{
+            width: 15vw;
+            height: 13vh;
+            background: var(--color-boton-base);
+            justify-self: center;
+            align-content: center;
+            border-radius: 2vw;
+            box-shadow: var(--sombra-base);
+            transition: all 1s ease;
+        }
+        .botonesNav:hover{
+            background: var(--color-boton-hover);
+            box-shadow: var(--sombra-hover);  
+            border-radius: 2.5vw;
+        }
+        .botonesNav:active{
+            background: var(--color-boton-click);
+            box-shadow: var(--sombra-click);
+        }
+        #enlaceNav{
+            text-decoration: none;
+            color: #f5efd7;
+            font-family: "Outfit", sans-serif;
+        }
+        
+        img{
+            inline-size:17vh;
+            aspect-ratio: 1;
+            object-fit:cover;
+            border-radius:100%;
+            box-shadow: 1.2vw 1.2vw 3vw #0e141b;
+            transition: inline-size 0.5s;
+        }
+        img:hover{
+            inline-size:22vh;
+        }
+        a{
+            transition: all 1s ease;
+        }
 }
-.botonesNav{
-    width: 15vw;
-    height: 13vh;
-    background: linear-gradient(145deg, #4d6e96, #2e435e, #15202b);
-    justify-self: center;
-    align-content: center;
-    border-radius: 50px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
-    transition: 1s ease;
-}
-#enlaceNav{
-    text-decoration: none;
-    color: #f5efd7;
-    font-family: "Outfit", sans-serif;
-}
-.botonesNav:hover{
-    background: linear-gradient(145deg, #4d6e96, #364f6e, #18222c);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);  
-    border-radius: 60px;
-}
-.botonesNav:active{
-    background: linear-gradient(145deg, #4d6e96, #5778a0, #25313d);
-    box-shadow: 15px 15px 25px rgba(34, 34, 34, 0.877);
-    transition: 1s ease;
-}
-.fotoNav>img{
-    inline-size:17vh;
-    aspect-ratio: 1;
-    object-fit:cover;
-    border-radius:100%;
-    box-shadow: 5px 5px 15px #0e141b;
-    transition: inline-size 0.5s;
-}
-.fotoNav>img:hover{
-    inline-size:22vh;
-}
+
+
+    /*MAIN*/
 main{
-    height: 270vh;
+    height: 230vh;
     width: 90vw;
-    background-color: #d9d9d9;
+    background-color: var(--color-fondo-elemento-flotante);
     align-self: center;
     justify-self: center;
     margin-top: 3vh;
-    border: solid 2px black;
+    border: 10px solid transparent;
     animation: fadeInLeftBig;
     animation-duration: 1s;
+    display:grid;
+    grid-template-columns: repeat(8,auto);
+    grid-template-rows: repeat(8,auto);
+    section{
+        background-color: #ffffff;
+        box-shadow: 1.2vw 1.2vw 3vw #000000;
+        margin:2vw;
+        align-items: center;
+        color: black;
+    }
+    #sobre-mi{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #foto{
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-radius: 25%;
+        
+    }
+    #botones-estudios{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        button{
+            background: var(--color-boton-base);
+            color:white;
+            box-shadow: var(--sombra-base);
+        }
+        button:hover{
+            background: var(--color-boton-hover);
+            box-shadow: var(--sombra-hover);
+        }
+        button:active{
+            background: var(--color-boton-click);
+            box-shadow: var(--sombra-click);
+        }
+    }
+    #estudios{
+        grid-column-start: 3;
+        grid-column-end: 9;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    #enlaces{
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    #otros{
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
 }
