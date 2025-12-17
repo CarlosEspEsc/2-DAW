@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcSoporte.Data;
 using MvcSoporte.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace MvcSoporte.Controllers
 {
+    [Authorize(Roles = "Administrador")]    
     public class AvisosController : Controller
     {
         private readonly MvcSoporteContexto _context;
@@ -20,10 +22,67 @@ namespace MvcSoporte.Controllers
         }
 
         // GET: Avisos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string strCadenaBusqueda,
+            string busquedaActual, int? intTipoAveriaId, int? tipoAveriaIdActual,
+            int? pageNumber)
         {
-            var mvcSoporteContexto = _context.Avisos.Include(a => a.Empleado).Include(a => a.Equipo).Include(a => a.TipoAveria);
-            return View(await mvcSoporteContexto.ToListAsync());
+            if (strCadenaBusqueda != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                strCadenaBusqueda = busquedaActual;
+            }
+
+            ViewData["BusquedaActual"] = strCadenaBusqueda;
+
+            if (intTipoAveriaId != null)
+            {
+                pageNumber = 1;
+
+            }
+            else
+            {
+                intTipoAveriaId = tipoAveriaIdActual;
+            }
+            ViewData["TipoAveriaIdActual"] = intTipoAveriaId;
+
+            // Cargar datos de los avisos
+            var avisos = _context.Avisos?.AsQueryable();
+            // Ordenar los avisos de forma descendente por FechaAviso
+            avisos = avisos.OrderByDescending(s => s.FechaAviso);
+            // Para buscar avisos por nombre de empleado en la lista de valores
+            if (!String.IsNullOrEmpty(strCadenaBusqueda))
+            {
+                avisos = avisos.Where(s => s.Empleado.Nombre.Contains(strCadenaBusqueda));
+            }
+            // Para filtrar avisos por tipo de avería
+            if (intTipoAveriaId == null)
+            {
+                ViewData["TipoAveriaId"] = new SelectList(_context.TipoAverias, "Id",
+                "Descripcion");
+            }
+            else
+            {
+                ViewData["TipoAveriaId"] = new SelectList(_context.TipoAverias, "Id",
+                "Descripcion", intTipoAveriaId);
+                avisos = avisos.Where(x => x.TipoAveriaId == intTipoAveriaId);
+            }
+
+            avisos = avisos.Include(a => a.Empleado)
+                            .Include(a => a.Equipo)
+                            .Include(a => a.TipoAveria);
+
+            int pageSize = 3;
+            return View(await PaginatedList<Aviso>.CreateAsync(avisos.AsNoTracking(),
+            pageNumber ?? 1, pageSize));
+
+
+            //return View(await avisos.AsNoTracking().ToListAsync());
+            // var mvcSoporteContexto = _context.Avisos.Include(a => a.Empleado).Include(a =>
+            //a.Equipo).Include(a => a.TipoAveria);
+            // return View(await mvcSoporteContexto.ToListAsync());
         }
 
         // GET: Avisos/Details/5

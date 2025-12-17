@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcSoporte.Data;
 using MvcSoporte.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace MvcSoporte.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class EmpleadosController : Controller
     {
         private readonly MvcSoporteContexto _context;
@@ -20,9 +22,14 @@ namespace MvcSoporte.Controllers
         }
 
         // GET: Empleados
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageNumber)
         {
-            return View(await _context.Empleados.ToListAsync());
+            // Cargar datos de Empleados
+            var empleados = from s in _context.Empleados
+                            select s;
+            int pageSize = 3;
+            return View(await PaginatedList<Empleado>.CreateAsync(empleados.AsNoTracking(), pageNumber ?? 1, pageSize));
+            // return View(await _context.Empleados.ToListAsync()) :
         }
 
         // GET: Empleados/Details/5

@@ -6,7 +6,6 @@ html {
     box-sizing: inherit; 
     border-radius: 15px;
     font-family: monospace;
-    font-size: 2vw;
     text-align: center;
     font-family: "Outfit",serif;
     margin: 0 0;
@@ -23,7 +22,7 @@ html {
 
 body{
     background-color: #0e141b;
-    height: 300vh;
+    height: 400vh;
     
 }
 
@@ -42,6 +41,7 @@ nav{
     margin: 3vh;
     animation: fadeInDown;
     animation-duration: 1s;
+    font-size: 2vw;
         .botonesNav{
             width: 15vw;
             height: 13vh;
@@ -86,7 +86,7 @@ nav{
 
     /*MAIN*/
 main{
-    height: 230vh;
+    height: 330vh;
     width: 90vw;
     background-color: var(--color-fondo-elemento-flotante);
     align-self: center;
@@ -96,8 +96,9 @@ main{
     animation: fadeInLeftBig;
     animation-duration: 1s;
     display:grid;
-    grid-template-columns: repeat(8,auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: repeat(8,auto);
+    font-size: 1.5vw;
     section{
         background-color: #ffffff;
         box-shadow: 1.2vw 1.2vw 3vw #000000;
@@ -110,27 +111,38 @@ main{
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 3;
+        align-content: center;
+        justify-content: center;
     }
     #foto{
-        grid-column-start: 6;
+        grid-column-start: 7;
         grid-column-end: 9;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 2;
         border-radius: 25%;
-        
+        background-image: url(imagenes/foto\ prueba.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #botones-estudios{
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 3;
-        grid-row-end: 5;
+        grid-row-end: 4;
         display:flex;
         flex-direction: column;
         justify-content: space-around;
+        margin-left: 20%;
+        margin-top:40%;
         button{
             background: var(--color-boton-base);
             color:white;
             box-shadow: var(--sombra-base);
+            width: 80%;
+            height: 100%;
+            margin: 1vw;
+            font-size: 1.5vw;
         }
         button:hover{
             background: var(--color-boton-hover);
@@ -146,6 +158,8 @@ main{
         grid-column-end: 9;
         grid-row-start: 3;
         grid-row-end: 5;
+        align-content: center;
+        justify-content: center;
     }
     #enlaces{
         grid-column-start: 1;
@@ -159,4 +173,14 @@ main{
         grid-row-start: 7;
         grid-row-end: 9;
     }
+}
+
+    /*FOOTER*/
+footer{
+    justify-self: center;
+    height: 25vh;
+    width: 90%;
+    margin: 2vw;
+    background-color: var(--color-fondo-elemento-flotante);
+
 }
