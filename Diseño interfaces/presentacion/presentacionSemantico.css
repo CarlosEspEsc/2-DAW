@@ -18,15 +18,15 @@ html {
     --sombra-base: 1vw 1vw 2vw rgba(0, 0, 0, 0.7);
     --sombra-hover: 1.2vw 1.2vw 2.5vw rgba(0, 0, 0, 1);
     --sombra-click: 1.5vw 1.5vw 3vw rgba(34, 34, 34, 0.877);;
+    --animate-duration: 3s;
+    --animate-delay: 1s;
 }
 
 body{
-    background-color: #0e141b;
-    height: 400vh;
-    
+    background-color: #0e141b;    
 }
 
-    /*NAV*/
+                                                    /*NAV*/
 nav{
     color: white;
     display:flex;
@@ -86,7 +86,7 @@ nav{
 
     /*MAIN*/
 main{
-    height: 330vh;
+    height: 230vh;
     width: 90vw;
     background-color: var(--color-fondo-elemento-flotante);
     align-self: center;
@@ -97,7 +97,7 @@ main{
     animation-duration: 1s;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: repeat(8,auto);
+    grid-template-rows: repeat(4,auto);
     font-size: 1.5vw;
     section{
         background-color: #ffffff;
@@ -110,12 +110,12 @@ main{
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 2;
         align-content: center;
         justify-content: center;
     }
     #foto{
-        grid-column-start: 7;
+        grid-column-start: 6;
         grid-column-end: 9;
         grid-row-start: 1;
         grid-row-end: 2;
@@ -128,13 +128,11 @@ main{
     #botones-estudios{
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
         display:flex;
         flex-direction: column;
         justify-content: space-around;
-        margin-left: 20%;
-        margin-top:40%;
         button{
             background: var(--color-boton-base);
             color:white;
@@ -156,22 +154,29 @@ main{
     #estudios{
         grid-column-start: 3;
         grid-column-end: 9;
-        grid-row-start: 3;
-        grid-row-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
         align-content: center;
         justify-content: center;
     }
     #enlaces{
         grid-column-start: 1;
         grid-column-end: 9;
-        grid-row-start: 5;
-        grid-row-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        overflow: hidden;
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-template-rows: 1fr 2fr;
+        p{
+
+        }
     }
     #otros{
         grid-column-start: 1;
         grid-column-end: 9;
-        grid-row-start: 7;
-        grid-row-end: 9;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
 }
 
