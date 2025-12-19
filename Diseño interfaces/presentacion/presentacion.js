@@ -25,14 +25,16 @@ divEstudios.append(conocimientosGenerales)
 
 botonInformatica.addEventListener("click", () =>{
     divEstudios.innerHTML = ""
-    divEstudios.style.setProperty("animation", "flipOutX")
-    divEstudios.style.setProperty("animation-duration", "0.5s")
-    setTimeout(() => {
+    // divEstudios.style.setProperty("animation", "flipOutX")
+    // divEstudios.style.setProperty("animation-duration", "0.5s")
+    // setTimeout(() => {
     divEstudios.append(estudiosInformatica)
     divEstudios.append(salto)
     divEstudios.append(conocimientosFront)
     divEstudios.append(conocimientosBack)
-    divEstudios.append(conocimientosGenerales), 500})})
+    divEstudios.append(conocimientosGenerales)
+    // , 500})
+})
 
 
 
@@ -50,14 +52,16 @@ experienciaSanidad1.innerText = "Experiencia de 10 años en diversos puestos den
 let botonSanitario = document.getElementById("sanidad")
 botonSanitario.addEventListener("click", () =>{
     divEstudios.innerHTML = ""
-    divEstudios.style.setProperty("animation", "flipOutX")
-    divEstudios.style.setProperty("animation-duration", "0.5s")
-    setTimeout(() => {
+    // divEstudios.style.setProperty("animation", "flipOutX")
+    // divEstudios.style.setProperty("animation-duration", "0.5s")
+    // setTimeout(() => {
         divEstudios.append(estudiosSanidad)
         divEstudios.append(salto)
         divEstudios.append(conocimientosSanidad)
         divEstudios.append(salto)
-        divEstudios.append(experienciaSanidad1), 500})})
+        divEstudios.append(experienciaSanidad1)
+        // , 500})}
+    })
 
 
 
@@ -76,14 +80,16 @@ softSkill4.innerText = "Manejo y gestión de datos protegidos bajo LPD."
 
 let botonOtros = document.getElementById("otros")
 botonOtros.addEventListener("click", () =>{
-    divEstudios.style.setProperty("animation", "")
-    divEstudios.style.setProperty("animation-duration", "")
     divEstudios.innerHTML = ""
-    divEstudios.style.setProperty("animation", "fadeOurRight")
-    divEstudios.style.setProperty("animation-duration", "0.5s")
-    setTimeout(() => {
-        divEstudios.append(softSkill1)
-        divEstudios.append(softSkill2)
-        divEstudios.append(softSkill3)
-        divEstudios.append(softSkill4)} ,500)
-})
+    divEstudios.append(softSkill1)
+    divEstudios.append(softSkill2)
+    divEstudios.append(softSkill3)
+    divEstudios.append(softSkill4)
+} 
+    // divEstudios.style.setProperty("animation", "")
+    // divEstudios.style.setProperty("animation-duration", "")
+    // divEstudios.style.setProperty("animation", "fadeOurRight")
+    // divEstudios.style.setProperty("animation-duration", "0.5s")
+    // setTimeout(() => {
+        // ,500)}
+)
