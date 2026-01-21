@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\ServiciosWebCS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28974D06-3AE7-4D60-950F-20BF69F4042D}|ServiciosWebCS\\ServiciosWebCS.csproj|c:\\repogit\\2-daw\\entorno servidor\\servicioswebcs\\servicioswebcs\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{28974D06-3AE7-4D60-950F-20BF69F4042D}|ServiciosWebCS\\ServiciosWebCS.csproj|solutionrelative:servicioswebcs\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28974D06-3AE7-4D60-950F-20BF69F4042D}|ServiciosWebCS\\ServiciosWebCS.csproj|C:\\RepoGit\\2-DAW\\Entorno Servidor\\ServiciosWebCS\\servicioswebcs\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28974D06-3AE7-4D60-950F-20BF69F4042D}|ServiciosWebCS\\ServiciosWebCS.csproj|solutionrelative:servicioswebcs\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ejercicio1.aspx.cs",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\ServiciosWebCS\\ServiciosWebCS\\Ejercicio1.aspx.cs",
+              "RelativeDocumentMoniker": "ServiciosWebCS\\Ejercicio1.aspx.cs",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\ServiciosWebCS\\ServiciosWebCS\\Ejercicio1.aspx.cs",
+              "RelativeToolTip": "ServiciosWebCS\\Ejercicio1.aspx.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T18:14:13.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ejercicio1.aspx",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\ServiciosWebCS\\ServiciosWebCS\\Ejercicio1.aspx",
+              "RelativeDocumentMoniker": "ServiciosWebCS\\Ejercicio1.aspx",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\ServiciosWebCS\\ServiciosWebCS\\Ejercicio1.aspx",
+              "RelativeToolTip": "ServiciosWebCS\\Ejercicio1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-19T18:07:20.884Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

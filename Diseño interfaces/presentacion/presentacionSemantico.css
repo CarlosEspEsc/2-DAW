@@ -165,14 +165,13 @@ main{
         grid-row-start: 3;
         grid-row-end: 4;
         overflow: hidden;
-        display: grid;
-        grid-template-rows: subgrid;
-        grid-template-rows: 1fr 2fr;
+        display: flex;
+        justify-content: space-around;
         p{
 
         }
     }
-    #otros{
+    #proyectos{
         grid-column-start: 1;
         grid-column-end: 9;
         grid-row-start: 4;

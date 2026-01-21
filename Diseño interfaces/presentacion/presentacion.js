@@ -14,7 +14,7 @@ let salto = document.createElement("br")
 estudiosInformatica.textContent = "Módulo Superior en Desarrollo de Aplicaciones Web; I.E.S Mare Nostrum 2023-2025"
 conocimientosFront.textContent = "Conocimientos de FrontEnd: Javascript, CSS, HTML"
 conocimientosBack.textContent = "Conocimientos de BackEnd: C#, NodeJs, ASP.Net, SQLServer"
-conocimientosGenerales.textContent = "GitHub, desplieques con Docker, conocimientos básicos de AWS"
+conocimientosGenerales.textContent = "GitHub, despliegues con Docker, conocimientos básicos AWS"
 
 divEstudios.append(estudiosInformatica)
 divEstudios.append(salto)
@@ -72,8 +72,8 @@ let softSkill1 = document.createElement("p")
 let softSkill2 = document.createElement("p")
 let softSkill3 = document.createElement("p")
 let softSkill4 = document.createElement("p")
-bachiller.innerText = "Bahillerato científico; I.E.S. Bahía de Babel  2006-2008"
-softSkill1.innerText = "Capacidad para manejar situaciones bajo situaciones de alta presión."
+bachiller.innerText =  "Bachillerato científico; I.E.S. Bahía de Babel  2006-2008"
+softSkill1.innerText = "Capacidad para manejar demandas bajo situaciones de alta presión."
 softSkill2.innerText = "Experiencia en la gestión de equipos de trabajo multidisciplinares."
 softSkill3.innerText = "Habilidades destacadas en comunicación empática desde un enfoque holístico."
 softSkill4.innerText = "Manejo y gestión de datos protegidos bajo LPD."

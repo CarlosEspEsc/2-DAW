@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|c:\\repogit\\2-daw\\entorno servidor\\mvcsoporte\\mvcsoporte\\views\\tipoaverias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB136771-CDD9-4C57-9579-2FB89F367780}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\tipoaverias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +46,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "RelativeToolTip": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T15:49:14.54Z",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Program.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Program.cs",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Program.cs",
+              "RelativeToolTip": "MvcSoporte\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T14:26:54.502Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquiposController.cs",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\EquiposController.cs",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\EquiposController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAwJcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T14:19:38.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-12T17:44:57.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T15:47:46.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T14:28:44.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:43:32.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T14:30:32.983Z"
             }
           ]
         }

@@ -7,7 +7,6 @@ namespace MvcSoporte.Controllers
 {
     public class HomeController : Controller
     {
-
         private readonly ILogger<HomeController> _logger;
         private readonly MvcSoporteContexto _context;
 
@@ -24,20 +23,16 @@ namespace MvcSoporte.Controllers
             string? emailUsuario = User.Identity.Name;
             Empleado? empleado = _context.Empleados.Where(e => e.Email == emailUsuario)
                                                                             .FirstOrDefault();
-            if (User.Identity.IsAuthenticated &&
-            User.IsInRole("Usuario") &&
-            empleado == null)
+            if (User.Identity.IsAuthenticated && User.IsInRole("Usuario") && empleado == null)
             {
                 return RedirectToAction("Create", "MisDatos");
             }
             return View();
         }
-
         public IActionResult Privacy()
         {
             return View();
         }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

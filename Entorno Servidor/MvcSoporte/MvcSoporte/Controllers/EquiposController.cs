@@ -155,6 +155,7 @@ namespace MvcSoporte.Controllers
             var equipo = await _context.Equipos.FindAsync(id);
             if (equipo != null)
             {
+
                 _context.Equipos.Remove(equipo);
             }
 
