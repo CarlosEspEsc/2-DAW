@@ -113,6 +113,7 @@ main{
         grid-row-end: 2;
         align-content: center;
         justify-content: center;
+        padding: 0.5vw;
     }
     #foto{
         grid-column-start: 6;
@@ -120,8 +121,10 @@ main{
         grid-row-start: 1;
         grid-row-end: 2;
         border-radius: 25%;
-        background-image: url(imagenes/foto\ prueba.jpg);
-        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -167,11 +170,9 @@ main{
         overflow: hidden;
         display: flex;
         justify-content: space-around;
-        p{
 
-        }
     }
-    #proyectos{
+    #otros{
         grid-column-start: 1;
         grid-column-end: 9;
         grid-row-start: 4;
