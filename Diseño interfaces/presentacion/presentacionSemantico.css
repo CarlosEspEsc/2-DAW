@@ -121,12 +121,10 @@ main{
         grid-row-start: 1;
         grid-row-end: 2;
         border-radius: 25%;
-        overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-color: lightgray;
     }
     #botones-estudios{
         grid-column-start: 1;
@@ -168,9 +166,32 @@ main{
         grid-row-start: 3;
         grid-row-end: 4;
         overflow: hidden;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "curriculum github simulacion"
+                             "enlaceCurriculum enlaceGitHub enlaceSimulacion"
+                             "enlaceCurriculum enlaceGitHub enlaceSimulacion"
+                             "enlaceCurriculum enlaceGitHub enlaceSimulacion";
         justify-content: space-around;
-
+        #curriculum{
+            grid-area: curriculum;
+        }
+        #github{
+            grid-area: github;
+        }
+        #simulacion{
+            grid-area: simulacion;
+        }
+        #enlaceCurriculum{
+            grid-area: enlaceCurriculum;
+        }
+        #enlaceGitHub{
+            grid-area: enlaceGitHub;
+        }
+        #enlaceSimulacion{
+            grid-area: enlaceSimulacion;
+        }
     }
     #otros{
         grid-column-start: 1;
