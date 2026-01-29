@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FBB222E-A629-4323-9DD5-95A89CA561FC}|Factura\\Factura.csproj|c:\\repogit\\2-daw\\entorno servidor\\facturaws\\factura\\calculosfacturaws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FBB222E-A629-4323-9DD5-95A89CA561FC}|Factura\\Factura.csproj|solutionrelative:factura\\calculosfacturaws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|c:\\repogit\\2-daw\\entorno servidor\\facturaws\\gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|c:\\repogit\\2-daw\\entorno servidor\\facturaws\\gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CalculosFacturaWS.asmx.cs",
-              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\Factura\\CalculosFacturaWS.asmx.cs",
-              "RelativeDocumentMoniker": "Factura\\CalculosFacturaWS.asmx.cs",
-              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\Factura\\CalculosFacturaWS.asmx.cs",
-              "RelativeToolTip": "Factura\\CalculosFacturaWS.asmx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LineasFactura.aspx.cs",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\Gesfactura\\LineasFactura.aspx.cs",
+              "RelativeDocumentMoniker": "Gesfactura\\LineasFactura.aspx.cs",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\Gesfactura\\LineasFactura.aspx.cs",
+              "RelativeToolTip": "Gesfactura\\LineasFactura.aspx.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T18:43:37.916Z",
+              "WhenOpened": "2026-01-27T18:29:16.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LineasFactura.aspx",
+              "DocumentMoniker": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\Gesfactura\\LineasFactura.aspx",
+              "RelativeDocumentMoniker": "Gesfactura\\LineasFactura.aspx",
+              "ToolTip": "C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\Gesfactura\\LineasFactura.aspx",
+              "RelativeToolTip": "Gesfactura\\LineasFactura.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-26T18:01:25.811Z",
               "EditorCaption": ""
             }
           ]

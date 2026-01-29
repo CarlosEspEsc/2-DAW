@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Factura\\Factura.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gesfactura\\Gesfactura.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -97,11 +97,11 @@ main{
     animation-duration: 1s;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: repeat(4,auto);
+    grid-template-rows: 80vh auto auto auto;
     font-size: 1.5vw;
     section{
         background-color: #ffffff;
-        box-shadow: 1.2vw 1.2vw 3vw #000000;
+        box-shadow: 0vw 1.2vw 3vw #000000;
         margin:2vw;
         align-items: center;
         color: black;
@@ -121,12 +121,18 @@ main{
         grid-row-start: 1;
         grid-row-end: 2;
         border-radius: 25%;
-        overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-position: center;
-        background-repeat: no-repeat;
+        overflow: hidden;
+        box-shadow: none;
+        background-color: var(--color-fondo-elemento-flotante);
+    }
+    img{
+        object-fit: cover;
+        width: 70%;
+        height: 90%;
+        border-radius: 15%;
     }
     #botones-estudios{
         grid-column-start: 1;
@@ -136,6 +142,7 @@ main{
         display:flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         button{
             background: var(--color-boton-base);
             color:white;
@@ -170,13 +177,19 @@ main{
         overflow: hidden;
         display: flex;
         justify-content: space-around;
-
     }
     #otros{
         grid-column-start: 1;
         grid-column-end: 9;
         grid-row-start: 4;
         grid-row-end: 5;
+        display:flex;
+        flex-direction: column;
+    }
+    #mensaje{
+        height: 20vh;
+        width: 80vw;
+        margin: 1vh;
     }
 }
 

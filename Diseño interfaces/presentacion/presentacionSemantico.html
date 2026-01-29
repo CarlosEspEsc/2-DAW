@@ -24,24 +24,23 @@
           <a href="#enlaces" id="enlaceNav">Enlaces</a>
         </section>
         <section class="botonesNav">
-          <a href="#otros" id="enlaceNav">Otros</a>
+          <a href="#otros" id="enlaceNav">Contacto</a>
         </section>
     </nav>
     <main>
       <section id="sobre-mi">
         <p>Desarrollador web con una trayectoria única: antes de la programación, trabajé como enfermero. 
-          Esa experiencia me dio una perspectiva invaluable sobre cómo la tecnología debe servir primero a las personas.</p>
+          Esa experiencia me dio una perspectiva sobre cómo la tecnología debe servir primero a las personas.</p>
         <p>Ahora aplico esa misma atención al detalle, capacidad de resolver problemas bajo presión y enfoque humanista al desarrollo web, 
           creando soluciones que son tanto funcionales como intuitivas.</p>
-        <p> Mi meta: construir proyectos que no solo funcionen técnicamente, sino que realmente mejoren la experiencia del usuario, 
+        <p> Mi meta es construir proyectos que no solo funcionen técnicamente, sino que realmente mejoren la experiencia del usuario, 
           porque al final, el mejor código es aquel que hace la vida más fácil.</p>
-
       </section>
       <section id="foto"><img src="./imagenes/fotoPortfolio.png" alt="Foto de Carlos Espinosa"></section>
       <section id="botones-estudios">
         <button id="informatica">Informática</button>
         <button id="sanidad">Sanitarios</button>
-        <button id="otros">Otros</button>
+        <button id="btnOtros">Otros</button>
       </section>
       <section id="estudios">
       </section>
@@ -52,7 +51,23 @@
         <a href="https://github.com/CarlosEspEsc" target="_blank"><img src="./imagenes/logo_github.png" alt="imagen logo GitHub"></a>
       </section>
       <section id="otros">
-        
+        <h2>Formulario de Contacto</h2>
+        <form action="https://formspree.io/f/mykwlryy" method="POST">
+          <p>Remitente:</p>
+          <p>
+            <label>
+            <input type="email" name="email">
+            </label>
+          </p>
+          <p>Mensaje:</p>
+          <p>
+            <label>
+            <textarea name="message" id="mensaje"></textarea>
+            </label>
+          </p>
+          <!-- your other form fields go here -->
+          <p><button type="submit">Enviar</button></p>
+        </form>
       </section>
     </main>
     <footer></footer>

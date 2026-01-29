@@ -68,19 +68,22 @@ botonSanitario.addEventListener("click", () =>{
 
 
 let bachiller = document.createElement("P")
+let idioma = document.createElement("p")
 let softSkill1 = document.createElement("p")
 let softSkill2 = document.createElement("p")
 let softSkill3 = document.createElement("p")
 let softSkill4 = document.createElement("p")
 bachiller.innerText =  "Bachillerato científico; I.E.S. Bahía de Babel  2006-2008"
+idioma.innerText = "Certificado Cambridge Nivel B1 Inglés  "
 softSkill1.innerText = "Capacidad para manejar demandas bajo situaciones de alta presión."
 softSkill2.innerText = "Experiencia en la gestión de equipos de trabajo multidisciplinares."
 softSkill3.innerText = "Habilidades destacadas en comunicación empática desde un enfoque holístico."
 softSkill4.innerText = "Manejo y gestión de datos protegidos bajo LPD."
 
-let botonOtros = document.getElementById("otros")
+let botonOtros = document.getElementById("btnOtros")
 botonOtros.addEventListener("click", () =>{
     divEstudios.innerHTML = ""
+    divEstudios.append(idioma)
     divEstudios.append(softSkill1)
     divEstudios.append(softSkill2)
     divEstudios.append(softSkill3)
