@@ -70,7 +70,7 @@ nav{
         }
         
         img{
-            inline-size:17vh;
+            inline-size:15vh;
             aspect-ratio: 1;
             object-fit:cover;
             border-radius:100%;
@@ -78,7 +78,7 @@ nav{
             transition: inline-size 0.5s;
         }
         img:hover{
-            inline-size:22vh;
+            inline-size:20vh;
         }
         a{
             transition: all 1s ease;
