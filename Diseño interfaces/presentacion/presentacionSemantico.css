@@ -23,7 +23,7 @@ html {
 }
 
 body{
-    background-color: #0e141b;    
+    background-color: linear-gradient(90deg, #5C5C5E, #2A2A7D, #020214);  
 }
 
                                                     /*NAV*/
@@ -200,5 +200,6 @@ footer{
     width: 90%;
     margin: 2vw;
     background-color: var(--color-fondo-elemento-flotante);
-
+    justify-content: center;
+    align-content: center;
 }
