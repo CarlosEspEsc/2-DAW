@@ -15,6 +15,7 @@ html {
     --color-boton-base: linear-gradient(145deg, #4d6e96, #2e435e, #15202b);
     --color-boton-hover: linear-gradient(145deg, #5376a1, #324966, #121c25);
     --color-boton-click: linear-gradient(145deg, #2b3d4e, #43638a, #6996cc);
+    --color-fondo-foto:linear-gradient(145deg, #cabbbb, #bbb9b9, #cac0c0);
     --sombra-base: 1vw 1vw 2vw rgba(0, 0, 0, 0.7);
     --sombra-hover: 1.2vw 1.2vw 2.5vw rgba(0, 0, 0, 1);
     --sombra-click: 1.5vw 1.5vw 3vw rgba(34, 34, 34, 0.877);;
@@ -61,10 +62,11 @@ nav{
             background: var(--color-boton-click);
             box-shadow: var(--sombra-click);
         }
-        #enlaceNav{
+        .enlaceNav{
             text-decoration: none;
             color: #f5efd7;
             font-family: "Outfit", sans-serif;
+            display:block;
         }
         
         img{
@@ -84,7 +86,8 @@ nav{
 }
 
 
-    /*MAIN*/
+    /*/////////////MAIN//////////////*/
+
 main{
     height: 230vh;
     width: 90vw;
@@ -97,7 +100,7 @@ main{
     animation-duration: 1s;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: repeat(4,auto);
+    grid-template-rows: repeat(6,auto);
     font-size: 1.5vw;
     section{
         background-color: #ffffff;
@@ -110,10 +113,10 @@ main{
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-end: 1;
         align-content: center;
         justify-content: center;
-        padding: 0.5vw;
+        padding: 10%;
     }
     #foto{
         grid-column-start: 6;
@@ -124,7 +127,12 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: lightgray;
+        background-color: var(--color-fondo-foto);
+        img{
+            width: 90%;
+            height: auto;
+            border-radius: 25%;
+        }
     }
     #botones-estudios{
         grid-column-start: 1;
@@ -168,29 +176,19 @@ main{
         overflow: hidden;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "curriculum github simulacion"
-                             "enlaceCurriculum enlaceGitHub enlaceSimulacion"
-                             "enlaceCurriculum enlaceGitHub enlaceSimulacion"
-                             "enlaceCurriculum enlaceGitHub enlaceSimulacion";
+        grid-template-rows: 1fr;
+        grid-template-areas: "curriculum github simulacion";
         justify-content: space-around;
+        
         #curriculum{
             grid-area: curriculum;
+
         }
         #github{
             grid-area: github;
         }
         #simulacion{
             grid-area: simulacion;
-        }
-        #enlaceCurriculum{
-            grid-area: enlaceCurriculum;
-        }
-        #enlaceGitHub{
-            grid-area: enlaceGitHub;
-        }
-        #enlaceSimulacion{
-            grid-area: enlaceSimulacion;
         }
     }
     #otros{
