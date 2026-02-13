@@ -88,11 +88,4 @@ botonOtros.addEventListener("click", () =>{
     divEstudios.append(softSkill2)
     divEstudios.append(softSkill3)
     divEstudios.append(softSkill4)
-} 
-    // divEstudios.style.setProperty("animation", "")
-    // divEstudios.style.setProperty("animation-duration", "")
-    // divEstudios.style.setProperty("animation", "fadeOurRight")
-    // divEstudios.style.setProperty("animation-duration", "0.5s")
-    // setTimeout(() => {
-        // ,500)}
-)
+} )
