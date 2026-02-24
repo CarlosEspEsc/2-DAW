@@ -88,6 +88,7 @@ botonOtros.addEventListener("click", () =>{
     divEstudios.append(softSkill2)
     divEstudios.append(softSkill3)
     divEstudios.append(softSkill4)
+<<<<<<< HEAD
 } 
 )
 
@@ -119,3 +120,6 @@ function ocultarBotones() {
         boton.style.transform = ''
         document.body.style.backgroundColor = "yellow"
     })}})
+=======
+} )
+>>>>>>> 1412fde2648c5e9d6945c55b8262ff0ba0ee0635
