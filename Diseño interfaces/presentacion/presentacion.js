@@ -76,7 +76,7 @@ let softSkill4 = document.createElement("p")
 bachiller.innerText =  "Bachillerato científico; I.E.S. Bahía de Babel  2006-2008"
 idioma.innerText = "Certificado Cambridge Nivel B1 Inglés  "
 softSkill1.innerText = "Capacidad para manejar demandas bajo situaciones de alta presión."
-softSkill2.innerText = "Experiencia en la gestión de equipos de trabajo multidisciplinares."
+softSkill2.innerText = "Experiencia en el trabajo con equipos multidisciplinares."
 softSkill3.innerText = "Habilidades destacadas en comunicación empática desde un enfoque holístico."
 softSkill4.innerText = "Manejo y gestión de datos protegidos bajo LPD."
 
@@ -89,10 +89,33 @@ botonOtros.addEventListener("click", () =>{
     divEstudios.append(softSkill3)
     divEstudios.append(softSkill4)
 } 
-    // divEstudios.style.setProperty("animation", "")
-    // divEstudios.style.setProperty("animation-duration", "")
-    // divEstudios.style.setProperty("animation", "fadeOurRight")
-    // divEstudios.style.setProperty("animation-duration", "0.5s")
-    // setTimeout(() => {
-        // ,500)}
 )
+
+document.addEventListener('DOMContentLoaded', () => {
+    let fotoNav = document.getElementById("fotoNav");
+
+    let botonesMovil = document.querySelectorAll('.botonesNavMovilL, .botonesNavMovilR');
+    // Verificamos que fotoNav exista antes de usarlo
+    if (!fotoNav) {
+        console.error('No se encontró #fotoNav');
+        return;
+    }
+//esconder y mostrar botones en mediaQuery
+
+
+fotoNav.addEventListener('mouseenter', mostrarBotones)
+fotoNav.addEventListener('mouseleave', ocultarBotones);
+
+function mostrarBotones() {
+    botonesMovil.forEach(boton => {
+        boton.style.display = 'block'; 
+        boton.style.transform = 'translateX(100%)'
+        document.body.style.backgroundColor = "red"
+    })}
+
+function ocultarBotones() {
+    botonesMovil.forEach(boton => {
+        boton.style.display = 'none'
+        boton.style.transform = ''
+        document.body.style.backgroundColor = "yellow"
+    })}})
