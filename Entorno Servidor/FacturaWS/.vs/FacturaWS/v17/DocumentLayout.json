@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|c:\\repogit\\2-daw\\entorno servidor\\facturaws\\gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|C:\\RepoGit\\2-DAW\\Entorno Servidor\\FacturaWS\\gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{324124E0-472B-442B-8146-3E4459B8FF8E}|Gesfactura\\Gesfactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "Gesfactura\\LineasFactura.aspx.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAxwBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T18:29:16.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T18:29:16.698Z"
             },
             {
               "$type": "Document",

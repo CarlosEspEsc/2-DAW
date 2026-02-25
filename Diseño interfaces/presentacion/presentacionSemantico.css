@@ -43,6 +43,12 @@ nav{
     animation: fadeInDown;
     animation-duration: 1s;
     font-size: 2vw;
+    section{
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
         .botonesNav{
             width: 15vw;
             height: 10vh;
@@ -62,13 +68,18 @@ nav{
             background: var(--color-boton-click);
             box-shadow: var(--sombra-click);
         }
+        .botonesNavMovilL{
+            display:none;
+        }
+        .botonesNavMovilR{
+            display:none;
+        }
         .enlaceNav{
             text-decoration: none;
             color: #f5efd7;
             font-family: "Outfit", sans-serif;
             display:block;
         }
-        
         img{
             inline-size:15vh;
             aspect-ratio: 1;
@@ -76,12 +87,16 @@ nav{
             border-radius:100%;
             box-shadow: 1.2vw 1.2vw 3vw #0e141b;
             transition: inline-size 0.5s;
+            margin: 0 auto;
         }
         img:hover{
             inline-size:20vh;
         }
         a{
             transition: all 1s ease;
+        }
+        #NavMovil{
+            display:none;
         }
 }
 
@@ -208,5 +223,17 @@ main{
     }
 }
 @media(max-height:720px) {
-    
+    .botonesNav{
+        display:none;
+    }
+    #fotoNav{
+        float:left;
+    }
+
+    .botonesNavMovilL, .botonesNavMovilR {
+        background: var(--color-boton-base);
+        height: 10vh;
+        width: 10vw;
+    }
 }
+

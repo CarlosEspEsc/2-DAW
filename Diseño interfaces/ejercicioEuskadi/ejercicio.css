@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; 
+    margin: 0.2vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    height: 99vh;
+    width: 99vw;
+    display: grid;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "main"
+                         "main"
+                         "main"
+                         "main"
+                         "main";
+
+}
+
+                /*HEADER*/
+header{
+    grid-area: header;
+    display: grid;
+    background-color: #006FF0;
+    grid-template-areas:"ico v1 titulo v2 busc";
+    color:white;
+    #iconos{
+        grid-area:ico;
+        display:grid;
+        grid-template-areas: "insta tik face gorjeo youtube";
+        justify-content: center;
+        align-items: center;
+    }
+
+    #vacio1{
+        grid-area:v1;
+    }
+    #titulo{
+        grid-area:titulo;
+        text-align: center;
+        margin: auto;
+    }
+    #vacio2{
+        grid-area: v2;
+    }
+    #buscador{
+        grid-area:busc;
+        color:white;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-areas: "lupa idioma";
+    }
+}
+
+
+
+        /*NAV*/
+nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: "v1 donde que gastro viaje blog v2";
+    font-size: 2vh;
+    #donde{
+        grid-area: donde;}
+    #que{
+        grid-area: que;}
+    #gastro{
+        grid-area: gastro;}
+    #viaje{
+        grid-area: viaje;}
+    #blog{
+        grid-area: blog;}
+    #v1{
+        grid-area: v1;
+        }
+    #v2{
+        grid-area: v2;
+    }
+}
+
+
+
+        /*MAIN*/
+main{
+    grid-area: main;
+    display:grid;
+    grid-template-areas:"texto familia perro lgtbiq"
+                        "blanco premium comida bici";
+    padding: 1vw;
+    text-align:right;
+    font-size: 2vh;
+}
+    #texto{
+        grid-area:texto;
+        border: 2px solid black;
+    }
+    #familia{
+        grid-area: familia;
+        border: 2px solid black;
+    }
+    #perro{
+        grid-area:perro;
+        border: 2px solid black;
+    }
+    #lgtbiq{
+        grid-area:lgtbiq;
+        border: 2px solid black;
+    }
+    #blanco{
+        grid-area:blanco;
+    }
+    #premium{
+        grid-area:premium;
+        border: 2px solid black;
+    }
+    #comida{
+        grid-area:comida;
+        border: 2px solid black;
+    }
+    #bici{
+        grid-area:bici;
+        border: 2px solid black;
+    }
