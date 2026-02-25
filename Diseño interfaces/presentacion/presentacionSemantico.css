@@ -24,7 +24,7 @@ html {
 }
 
 body{
-    background-color: black;    
+    background-color: #0e141b;
 }
 
                                                     /*NAV*/
@@ -92,6 +92,8 @@ main{
     height: 230vh;
     width: 90vw;
     background-color: var(--color-fondo-elemento-flotante);
+    
+    /* background-color: transparent; */
     align-self: center;
     justify-self: center;
     margin-top: 3vh;
@@ -144,6 +146,7 @@ main{
         flex-direction: column;
         justify-content: space-around;
         button{
+            border-radius: 2vh;
             background: var(--color-boton-base);
             color:white;
             box-shadow: var(--sombra-base);
