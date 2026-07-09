@@ -99,7 +99,41 @@ nav{
             display:none;
         }
 }
+.hamburguesa {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+}
 
+.hamburguesa span {
+    width: 40px;
+    height: 4px;
+    background: white;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+/* Animación del botón hamburguesa cuando está activo */
+.hamburguesa.activo span:first-child {
+    transform: rotate(45deg);
+}
+
+.hamburguesa.activo span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburguesa.activo span:last-child {
+    transform: rotate(-45deg);
+}
 
     /*/////////////MAIN//////////////*/
 
@@ -222,7 +256,7 @@ main{
         }
     }
 }
-@media(max-height:720px) {
+/* @media(max-height:720px) {
     .botonesNav{
         display:none;
     }
@@ -235,5 +269,173 @@ main{
         height: 10vh;
         width: 10vw;
     }
+} */
+
+
+
+
+
+
+/* Estilos del contenedor del menú hover */
+.menu-hover-container {
+    position: relative;
+    display: inline-block;
 }
 
+/* Estilos del menú desplegable (oculto por defecto) */
+.menu-hover {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-fondo-elemento-flotante);
+    min-width: 200px;
+    border-radius: 15px;
+    box-shadow: var(--sombra-base);
+    z-index: 1000;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+/* Flechita del desplegable */
+.menu-hover::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent var(--color-fondo-elemento-flotante) transparent;
+}
+
+/* Estilos de los items del menú */
+.menu-hover-item {
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #333;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.menu-hover-item:first-child {
+    border-radius: 15px 15px 0 0;
+}
+
+.menu-hover-item:last-child {
+    border-radius: 0 0 15px 15px;
+}
+
+.menu-hover-item:hover {
+    background: var(--color-boton-hover);
+    color: white;
+    transform: scale(1.05);
+}
+
+.menu-hover-item:active {
+    background: var(--color-boton-click);
+}
+
+/* Media query para móvil/tablet */
+@media screen and (max-width: 768px) {
+    /* Ocultamos la navegación normal de escritorio */
+    #NavNavegador {
+        display: none !important;
+    }
+    
+    /* Ajustamos el nav para centrar la foto */
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Hacemos que la imagen sea el activador del hover */
+    .menu-hover-container {
+        cursor: pointer;
+        margin: 0 auto;
+        z-index: 100;
+    }
+    
+    /* Eliminamos el hover de la imagen que hace que crezca */
+    .menu-hover-container img:hover {
+        inline-size: 15vh; /* Mantenemos el tamaño original */
+    }
+    
+    /* Mostramos el menú cuando hacemos hover sobre la imagen o el menú mismo */
+    .menu-hover-container:hover .menu-hover {
+        display: block !important;
+        animation: fadeInDown 0.3s ease;
+    }
+    
+    /* Ajustes del menú para móvil */
+    .menu-hover {
+        position: fixed;
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 20px 20px 0 0;
+        margin-top: 0;
+        animation: slideInUp 0.3s ease !important;
+        background: var(--color-fondo-elemento-flotante);
+        padding: 20px 0;
+        box-shadow: 0 -5px 20px rgba(0,0,0,0.3);
+    }
+    
+    /* Ocultamos la flecha en móvil */
+    .menu-hover::before {
+        display: none;
+    }
+    
+    /* Ajustamos los items para móvil */
+    .menu-hover-item {
+        padding: 18px 20px;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        white-space: normal;
+        color: #333;
+        font-weight: 500;
+    }
+    
+    .menu-hover-item:last-child {
+        border-bottom: none;
+    }
+    
+    .menu-hover-item:hover {
+        transform: none;
+        background: var(--color-boton-hover);
+        color: white;
+        padding-left: 30px;
+    }
+}
+
+/* Animaciones */
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

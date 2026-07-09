@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Examen DWEC - Pokémon CRUD (AJAX)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="toolbar">
+    <button id="anyadeCli">Añadir Pokémon (prompts)</button>
+    <button id="anyadeCliForm">Añadir Pokémon (formulario)</button>
+  </div>
+
+  <div id="listado"></div>
+
+  <template id="tplFormularioPokemon">
+    <div class="form-wrap">
+      <form class="pokemon-form">
+        <input type="hidden" name="id" />
+
+        <label>Nombre</label>
+        <input name="name" placeholder="pikachu" required />
+
+        <label>Tipos (separados por coma)</label>
+        <input name="types" placeholder="electric, steel" required />
+
+        <label>Altura (número)</label>
+        <input name="height" placeholder="4" />
+
+        <label>Peso (número)</label>
+        <input name="weight" placeholder="60" />
+
+        <div class="row">
+          <button type="submit">Guardar</button>
+          <button type="button" class="btn-cancelar">Cancelar</button>
+        </div>
+
+        <p class="hint">
+          Nota: <strong>types</strong> debe enviarse como array. En el formulario se escribe como texto separado por comas.
+        </p>
+
+        <p class="error" hidden></p>
+      </form>
+    </div>
+  </template>
+
+  <script type="module" src="examen.js"></script>
+</body>
+</html>

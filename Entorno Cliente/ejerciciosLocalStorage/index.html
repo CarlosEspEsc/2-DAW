@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>localStorage Básico</title>
+</head>
+<body>
+    <h2>Ejercicio 1: Guardar Texto</h2>
+    <input type="text" id="miTexto" placeholder="Escribe algo...">
+    <button onclick="guardarTexto()">Guardar</button>
+    <button onclick="recuperarTexto()">Recuperar</button>
+    <button onclick="borrarTexto()">Borrar</button>
+    <p id="resultado"></p>
+
+    <script>
+        let id = 0
+        function guardarTexto() {
+            let texto = document.getElementById("miTexto").value
+            console.log(texto)
+            id++
+            localStorage.setItem(`${id}`, texto)
+            let p = document.getElementById("resultado").innerHTML = "Texto Guardado"
+        }
+
+        function recuperarTexto() {
+            let texto = localStorage.getItem(`${id}`)
+            let p = document.getElementById("resultado").innerHTML = texto
+        }
+
+        function borrarTexto() {
+            for(let i = 0; i <= id; i++)
+            {
+                localStorage.removeItem(i)
+            }
+            id = 0
+        }
+    </script>
+</body>
+</html>

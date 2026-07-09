@@ -1,0 +1,141 @@
+
+
+/* ===============================
+   EXAMEN DWEC - POKÉMON CRUD
+   Hoja de estilos oficial
+   =============================== */
+
+:root {
+  --primary: #1e88e5;
+  --primary-dark: #1565c0;
+  --danger: #c62828;
+  --danger-dark: #8e0000;
+  --border: #e0e0e0;
+  --bg-soft: #f5f7fa;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+  background-color: var(--bg-soft);
+}
+
+#toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+#anyadeCli,
+#anyadeCliForm {
+  background-color: var(--primary);
+  color: white;
+}
+
+#anyadeCli:hover,
+#anyadeCliForm:hover {
+  background-color: var(--primary-dark);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+ol {
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 18px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 520px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card p {
+  margin: 6px 0;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.row button {
+  background-color: #eeeeee;
+}
+
+.row button:hover {
+  background-color: #dddddd;
+}
+
+.row button:last-child {
+  background-color: var(--danger);
+  color: white;
+}
+
+.row button:last-child:hover {
+  background-color: var(--danger-dark);
+}
+
+.form-wrap {
+  background-color: white;
+  border: 2px dashed var(--primary);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 18px;
+  max-width: 520px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 4px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 8px;
+}
+
+.error {
+  color: var(--danger);
+  margin-top: 8px;
+  font-weight: 600;
+}

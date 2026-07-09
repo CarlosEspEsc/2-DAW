@@ -5,18 +5,17 @@ async function cargarPokemons(){
         method : "GET"
     }
     try{
-        let response = await fetch(url)
+        let response = await fetch(url, options)
         if(!response.ok)
             console.log("error en la peticion")
         let datos = await response.json();
-        console.log(datos.results)
         muestraWeb(datos.results)
     }
     catch(error){
         throw new Error(error)
     }
 }
-cargarPokemons()
+
 
 function muestraWeb(pokemons){
     let listado = document.getElementById("listado");
@@ -52,14 +51,33 @@ function muestraPokemon(pokemon){
     botonBorrar.innerText = "Borrar"
     botonBorrar.setAttribute("id", `Borrar${pokemon.id}`)
     let objBorrar = new BorrarHandle();
+    objBorrar.pokemon = pokemon;
     botonBorrar.addEventListener("click", objBorrar)
     div.append(botonBorrar)
     return li;
 }
 
 function BorrarHandle(){
-    this.handleEvent = (e) =>{
+    this.handleEvent = async (e) =>{
         e.preventDefault();
+        let options = {
+            method : "DELETE",
+            headers : {"Content-Type" : "application/json"},
+        }
+        try{
+            let id = this.pokemon.id
+            console.log(id)
+            let deleteUrl = `${url}?id=${id}`
+            console.log(deleteUrl)
+            let promise = await fetch(deleteUrl, options)
+            if(!promise.ok)
+                throw new Error(`error en la respuesta de Delete con id ${deleteUrl}`)
+            cargarPokemons()
+        }
+        catch(error)
+        {
+            throw new Error(error)
+        }
     }
 }
 
@@ -77,12 +95,58 @@ function anyadePokemon(){
             headers : {"Content-Type" : "application/json"},
             body : JSON.stringify(pokemon)
         }
-        let promise = await fetch(`${url}`, options)
-        cargarPokemons();
+        try{
+            let promise = await fetch(`${url}`, options)
+            if(!promise.ok)
+                throw new Error(promise)
+            cargarPokemons();
+        }
+        catch(error){
+            throw new Error(error)
+        }
     })
-    
 }
 
-anyadePokemon()
+function anyadePokemonFormulario(){
+    let botonAnyadirForm = document.getElementById("anyadeCliForm");
+    botonAnyadirForm.addEventListener("click", function(){
+        let divListado = document.getElementById("listado")
+        let tmpl = document.getElementById("tplFormularioPokemon");
+        tmpl = tmpl.content.cloneNode(true);
+        let formulario = tmpl.querySelector(".pokemon-form");
+        divListado.append(formulario);
+        formulario.addEventListener("submit", async function(e){
+            e.preventDefault();
+            let name = formulario[1].value;
+            let type = formulario[2].value.split(",");
+            let height = formulario[3].value;
+            let weight = formulario[4].value;
+            let pokemon = {"name" : name, "types" : type, "height" : parseInt(height), "weight" : parseInt(weight)}
+            let options = {
+                method : "POST",
+                headers :{"Content-Type" : "application/json"},
+                body : JSON.stringify(pokemon)
+            }
+            try{
+                let promise = await fetch(`${url}`, options)
+                if(!promise.ok)
+                    throw Error ("no se ha obtenido respuesta")
+                cargarPokemons();
+            }
+            catch(error)
+            {
+                console.log(error)
+            }
+            })
+    })
+}
 
+
+
+
+
+
+cargarPokemons()
+anyadePokemon()
+anyadePokemonFormulario()
 
